@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIALS_ID = 'docker-cred'
         DOCKER_IMAGE          = 'adhil6407/maker'
-        SONAR_SERVER_NAME     = 'sonarqube-env' // Configured in Jenkins System settings
+        SONAR_SERVER_NAME     = 'sonarqube_env' // Configured in Jenkins System settings
         SONAR_SCANNER_TOOL    = 'sonar-scanner'     // Configured in Global Tool Configuration
         GIT_CREDENTIALS_ID    = 'github-cred'
         MANIFEST_REPO         = 'https://github.com/adhil6407/maker.git'
