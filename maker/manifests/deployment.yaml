@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: maker-deployment
-  namespace: production
   labels:
     app: maker
     tier: frontend
